@@ -8,7 +8,8 @@ App Structure
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/download) on your machine if you haven't already.
 2. Install [Node.js](https://nodejs.org/en/download/) on your machine if you haven't already.
-3. Clone the repository to your local machine using `git clone <repository URL>`.
+3. Clone the repository to your local machine using `git clone https://github.com/xAlidev/board.git
+`.
 4. Navigate to the project's root directory in your terminal.
 5. Run `npm install` to install all project dependencies.
 6. Run `npm run dev` to start the development server. The project should be accessible at http://localhost:3000.
