@@ -1,15 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+App Structure
+
+![image](https://user-images.githubusercontent.com/56807795/236652925-ab92ece2-7acc-4ce1-9095-b5105accfeee.png)
+
+
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
+
+npm install 
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
