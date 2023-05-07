@@ -2,41 +2,30 @@ App Structure
 
 ![image](https://user-images.githubusercontent.com/56807795/236699368-5cb394fa-3fa9-4e2c-90e1-e18e1910504b.png)
 
+Welcome to the project! We are glad to have you as a collaborator. Your contributions are valuable to the development of the project. Please follow the steps below to get started:
 
+Getting Started
+Install Visual Studio Code on your machine if you haven't already.
+Install Node.js on your machine if you haven't already.
+Clone the repository to your local machine using git clone <repository URL>.
+Navigate to the project's root directory in your terminal.
+Run npm install to install all project dependencies.
+Run npm run dev to start the development server. The project should be accessible at http://localhost:3000.
+Collaborating
+All contributions should be made to the dev branch through pull requests and commits.
 
-## Getting Started
+Libraries Used
+The project is built with React 18.2.0 and Next.js 13.4.1, using the following libraries:
 
-First, run the development server:
+Tailwind CSS: 3.3.2
+Framer Motion: 10.12.8
+Prisma: 4.13.0
+HeadlessUI: 1.7.14
+Using Prisma
+For testing and development, we are using Prisma with SQLite. To use Prisma, follow these steps:
 
-```bash
-
-npm install 
-
-npm run dev
-
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Install Prisma as a development dependency by running npm install prisma --save-dev.
+Run npx prisma db push to create the database and push the schema to the database.
+Run npx prisma generate to generate the Prisma client.
+Open Prisma Studio by running npx prisma studio. Prisma Studio should be accessible at http://localhost:5555.
+Thank you for contributing to the project. If you have any questions or encounter any issues, please reach out to the project maintainers.
