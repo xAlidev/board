@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+App Structure
+
+my-app/
+├─ pages/
+│  ├─ index.js
+│  └─ dashboard/
+│     └─ index.js
+├─ components/
+│  ├─ Header.js
+│  ├─ Sidebar.js
+│  ├─ Stats.js
+│  ├─ Users.js
+│  └─ Settings.js
+└─ layouts/
+   ├─ layout.js
+   └─ dashboard/
+      └─ layout.js
+
+
 
 ## Getting Started
 
