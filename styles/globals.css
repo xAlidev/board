@@ -10,17 +10,17 @@
   --color-light: #f5f6fa;
 }
 
-html,
-body {
+
+#__next {
   height: 100%;
   font-size: 16px;
 }
 
-
 body {
   --tw-bg-opacity: 1;
-  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -32,4 +32,25 @@ body {
   .hidden-on-mobile {
     display: none;
   }
+}
+
+.grid-cols-main {
+  grid-template-columns: 1fr 4fr;
+}
+
+main::-webkit-scrollbar {
+  width: 8px;
+}
+
+main::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+main::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

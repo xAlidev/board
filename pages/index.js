@@ -18,7 +18,7 @@ const Home = () => {
               Home Page
             </motion.h1>
             <motion.p
-              className="text-gray-700 mb-8"
+              className="text-neutral-300 mb-8"
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.5 }}

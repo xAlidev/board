@@ -6,7 +6,7 @@ const Sidebar = ({ showSidebar }) => {
     return (
         <aside
             className={`${showSidebar ? 'block' : 'hidden'
-                } bg-gray-800 text-white w-full md:w-64 p-4 h-full md:block fixed md:static`}
+                } bg-neutral-900 text-white w-full md:w-64 p-4 h-full md:block fixed md:static`}
         >
             <h2 className="text-lg font-semibold mb-4">Dashboard Menu</h2>
             <nav>
