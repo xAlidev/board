@@ -1,6 +1,7 @@
 App Structure
 
-![image](https://user-images.githubusercontent.com/56807795/236652925-ab92ece2-7acc-4ce1-9095-b5105accfeee.png)
+
+![image](https://user-images.githubusercontent.com/56807795/236684091-a0fa570b-e90e-4f6c-bd67-3512ecf74758.png)
 
 
 
