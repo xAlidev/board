@@ -2,9 +2,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 :root {
   --color-primary: #0652DD;
@@ -14,11 +11,11 @@
 }
 
 html,
-body,
-#__next {
+body {
   height: 100%;
   font-size: 16px;
 }
+
 
 body {
   --tw-bg-opacity: 1;
