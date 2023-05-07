@@ -1,20 +1,6 @@
 App Structure
 
-my-app/
-├─ pages/
-│  ├─ index.js
-│  └─ dashboard/
-│     └─ index.js
-├─ components/
-│  ├─ Header.js
-│  ├─ Sidebar.js
-│  ├─ Stats.js
-│  ├─ Users.js
-│  └─ Settings.js
-└─ layouts/
-   ├─ layout.js
-   └─ dashboard/
-      └─ layout.js
+![image](https://user-images.githubusercontent.com/56807795/236652925-ab92ece2-7acc-4ce1-9095-b5105accfeee.png)
 
 
 
