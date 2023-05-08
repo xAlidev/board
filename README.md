@@ -31,7 +31,7 @@ The project is built with React 18.2.0 and Next.js 13.4.1, using the following l
 
 For testing and development, we are using Prisma with SQLite. To use Prisma, follow these steps:
 
-1. Install Prisma as a development dependency by running `npm install prisma --save-dev`.
+1. Install Prisma as a development dependency by running `npm install prisma --save-dev`, then `npx prisma init --datasource-provider sqlite`
 2. Run `npx prisma db push` to create the database and push the schema to the database.
 3. Run `npx prisma generate` to generate the Prisma client.
 4. Open Prisma Studio by running `npx prisma studio`. Prisma Studio should be accessible at http://localhost:5555.
