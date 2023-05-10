@@ -7,7 +7,7 @@ export default function DashboardLayout({ children }) {
     const [showSidebar, setShowSidebar] = useState(false);
 
     return (
-        <div className="bg-neutral-950 min-h-screen">
+        <div className="min-h-screen bg-gray-900">
             <div className="flex">
                 <div className="w-1/5 h-screen sticky top-0">
                     <Sidebar showSidebar={showSidebar} />

@@ -25,15 +25,15 @@ function UserProfile() {
         <>
             {user ? (
                 <div>
-                    <h2 className="text-white text-2xl font-semibold mb-4">User Profile</h2>
+                    <h2 className="text-2xl text-white font-semibold mb-4">User Profile</h2>
                     <p>
-                        <strong>ID:</strong> {user.id}
+                        <strong className='text-indigo-500'>ID:</strong> {user.id}
                     </p>
                     <p>
-                        <strong>Name:</strong> {user.name}
+                        <strong className='text-indigo-500'>Name:</strong> {user.name}
                     </p>
                     <p>
-                        <strong>Email:</strong> {user.email}
+                        <strong className='text-indigo-500'>Email:</strong> {user.email}
                     </p>
                 </div>
             ) : (
