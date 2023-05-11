@@ -9,6 +9,10 @@ module.exports = {
       gridTemplateRows: {
         header: '64px auto', // 👈 for the navbar layout. adds grid-rows-header class
       },
+
+      colors: {
+        'bg-gray-900': '#111827',
+      },
     },
   },
   variants: {

@@ -10,6 +10,9 @@
   --color-light: #f5f6fa;
 }
 
+.bg-gray-900	{
+  background-color: rgb(17 24 39);
+}
 
 #__next {
   height: 100%;
